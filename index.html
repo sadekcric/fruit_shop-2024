@@ -41,8 +41,200 @@
 </style>
 </head>
 
+<!-- body section -->
 <body class="lato">
-  
+  <!-- container -->
+  <div class="md:w-4/5 md:mx-auto p-5 ">
+
+    <!--Navbar for large Device -->
+    <nav class="flex justify-between items-center bg-primary lg:pl-10 px-6  py-4 rounded-full text-white">
+      <div class="hidden lg:block">
+        <!-- list for large Device -->
+        <ul class="flex gap-4 items-center h-full text-lg">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">All Fruits</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="">
+          <img src="img/logo.png" alt="" class="w-2/3 lg:w-3/4 ml-auto">
+        </div>
+        <h3 class="text-2xl lg:text-3xl font-bold">Fruit Burst</h3>
+      </div>
+
+      <div class="hidden lg:block">
+        <input type="search" name="" id="" placeholder="Search hear" class="px-3 py-2 focus:outline-none rounded-full text-gray-600">
+      </div>
+
+      <!-- Mobile Device -->
+      <div class="lg:hidden">
+        <div>
+          <i class='bx bx-menu text-3xl'></i>
+        </div>
+        <div>
+          <ul class="hidden">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">All Fruits</a></li>
+            <li>
+              <div class="lg:hidden block">
+                <input type="search" name="" id="" placeholder="Search hear" class="px-3 py-2 focus:outline-none rounded-full text-gray-600">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="mt-10">
+      <!-- carousel section -->
+      <div class="carousel w-full">
+        <!-- carousel 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <!-- banner -->
+      <div class="text-center bg-[linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.1)),url('img/banner1.png')] bg-cover bg-center h-80 lg:h-[600px] flex flex-col items-center justify-center space-y-5 w-full p-3">
+        <h1 class="text-3xl lg:text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+
+        <p class="text-gray-200">We supply highly quality organic products</p>
+
+        <div>
+          <button class="btn bg-primary text-white border-none">Shop Now</button>
+        </div>
+      </div>
+      <!-- banner done -->
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+
+        <!-- carousel 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <!-- banner -->
+      <div class="text-center bg-[linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.1)),url('img/banner2.png')] bg-cover bg-center h-80 lg:h-[600px] flex flex-col items-center justify-center space-y-5 w-full p-3">
+        <h1 class="text-3xl lg:text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+
+        <p class="text-gray-200">We supply highly quality organic products</p>
+
+        <div>
+          <button class="btn bg-primary text-white border-none">Shop Now</button>
+        </div>
+      </div>
+      <!-- banner done -->
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+
+        <!-- carousel 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <!-- banner -->
+      <div class="text-center bg-[linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.1)),url('img/banner3.png')] bg-cover bg-center h-80 lg:h-[600px] flex flex-col items-center justify-center space-y-5 w-full p-3">
+        <h1 class="text-3xl lg:text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+
+        <p class="text-gray-200">We supply highly quality organic products</p>
+
+        <div>
+          <button class="btn bg-primary text-white border-none">Shop Now</button>
+        </div>
+      </div>
+      <!-- banner done -->
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+
+        <!-- carousel 4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+          <!-- banner -->
+      <div class="text-center bg-[linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.1)),url('img/banner4.png')] bg-cover bg-center h-80 lg:h-[600px] flex flex-col items-center justify-center space-y-5 w-full p-3">
+        <h1 class="text-3xl lg:text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+
+        <p class="text-gray-200">We supply highly quality organic products</p>
+
+        <div>
+          <button class="btn bg-primary text-white border-none">Shop Now</button>
+        </div>
+      </div>
+      <!-- banner done -->
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- hr flower section -->
+      <div class="hidden lg:flex justify-around items-center w-3/4 mx-auto bg-white shadow-xl shadow-gray-100 py-4 px-6 -translate-y-16">
+        <div><img src="img/fruit1.png" alt=""></div>
+        <div><img src="img/fruit2.png" alt=""></div>
+        <div><img src="img/fruit3.png" alt=""></div>
+        <div><img src="img/fruit4.png" alt=""></div>
+        <div><img src="img/fruit5.png" alt=""></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Deal of the Day -->
+      <section class="lg:mt-24 mt-10">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-8">
+
+          <div class="max-w-[600px] space-y-4">
+            <h2 class="lg:text-5xl text-2xl font-bold">Deal of the day</h2>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+
+          <!-- countdown -->
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max mx-auto  lg:mx-0">
+            <!-- Day -->
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+
+            <div class="w-[2px] h-5 mt-4 bg-gray-500"></div>
+            <!-- Hours -->
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+
+            <div class="w-[2px] h-5 mt-4 bg-gray-500"></div>
+            <!-- Min -->
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+
+            <div class="w-[2px] h-5 mt-4 bg-gray-500"></div>
+            <!-- second -->
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:13;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+  </div>
+ 
 </body>
 </html>
-
